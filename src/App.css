@@ -23,16 +23,29 @@ body {
   background-color: rgb(106, 167, 148);
 }
 
-.copy{
-  color:white
+.copy {
+  color: white
 }
 
-.formcontainer{
+.formcontainer {
   display: flex;
-justify-content: center;
+  justify-content: center;
   flex-direction: column;
+  align-self: center;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.text{
+.text {
   padding: 15px;
+}
+
+.result{
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
 }
