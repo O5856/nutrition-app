@@ -67,6 +67,9 @@ function App() {
       {loader && <LoaderPage />}
       <form onSubmit={finalSearch} className='formcontainer'>
         <input className="input" type='text' placeholder='Enter ingredients here' onChange={recipeSearchResult} />
+
+        <p className='text'>Enter as following example: "1 cup rice,10 oz chickpeas"</p>
+
         <button className='btn' type='submit'><p className='copy'>Search</p></button>
       </form>
       {nutritionResult && <p>{nutritionResult.calories} kcal</p>
